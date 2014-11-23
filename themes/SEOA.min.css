@@ -13,6 +13,22 @@
 /* Globals */
 /* Font
 -----------------------------------------------------------------------------------------------------------*/
+@font-face{
+
+    font-family:'Trajan-Pro-Bold';
+    src: url("Trajan-Pro-Bold.ttf"); 
+}
+@font-face{
+
+    font-family:'Trajan-Pro-Regular';
+    src: url("Trajan-Pro-Regular.ttf"); 
+}
+
+
+h1 { font-family: Trajan-Pro-Bold; }
+h3 { font-family: Trajan-Pro-Bold; }
+p  { font-family: Trajan-Pro-Regular; }
+
 html {
 	font-size: 100%;
 }
@@ -24,7 +40,7 @@ button,
 .ui-btn {
 	font-size: 1em;
 	line-height: 1.3;
-	 font-family: sans-serif /*{global-font-family}*/;
+	 font-family: Trajan-Pro-Regular /*{global-font-family}*/;
 }
 legend,
 .ui-input-text input,

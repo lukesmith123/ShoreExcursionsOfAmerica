@@ -9,7 +9,7 @@ function initialise() {
       	}
     	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions); // Render our map within the empty div
          
-		var image = new google.maps.MarkerImage("http://www.google.com/mapfiles/marker.png", null, null, null, new google.maps.Size(20,32)); // Create a variable for our marker image.
+		var image = new google.maps.MarkerImage("themes/images/MarkerL.png", null, null, null, new google.maps.Size(26,37)); // Create a variable for our marker image.
              
 		var markerLatLng = new google.maps.LatLng(31.559404, -91.408971);	 
 			 
