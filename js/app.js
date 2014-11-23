@@ -174,8 +174,8 @@ new google.maps.LatLng(31.549272,-91.395859),
     path: flightPlanCoordinates,
     geodesic: true,
     strokeColor: '#f68b1f',
-    strokeOpacity: 1.0,
-    strokeWeight: 4
+    strokeOpacity: 0.6,
+    strokeWeight: 5
   });
 
   flightPath.setMap(map);
