@@ -1,9 +1,9 @@
 function initialise() {
          
-    	var myLatlng = new google.maps.LatLng(31.555197,-91.403171);  // Add the coordinates
+    	var myLatlngO = new google.maps.LatLng(31.555197,-91.403171);  // Add the coordinates
     	var mapOptions = {
         zoom: 15, // The initial zoom level when your map loads (0-20)
-        center: myLatlng, // Centre the Map to our coordinates variable
+        center: myLatlngO, // Centre the Map to our coordinates variable
         mapTypeId: google.maps.MapTypeId.ROADMAP, // Set the type of Map
 		disableDefaultUI: true,
       	}
