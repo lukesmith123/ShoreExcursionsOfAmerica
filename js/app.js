@@ -38,6 +38,36 @@ function initialise() {
      infowindow.open(map,marker);
   	 });
 	 
+	 
+	 //MARKER 2
+	 //
+	 var markerLatLng2 = new google.maps.LatLng(31.554874,-91.411274);
+	 
+	 var marker2 = new google.maps.Marker({ // Set the marker
+    	position: markerLatLng2, // Position marker to coordinates
+    	icon:image, //use our image as the marker
+    	map: map, // assign the market to our map variable
+    	title: "Natchez Visitor's Center" // Marker ALT Text 
+		});
+		
+	 var contentString2 = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h3 id="firstHeading" class="firstHeading">Natchez Visitor\'s Center:</h3>'+
+      '<div id="bodyContent">'+
+      "<p>Enjoy the state of the art visitor's center and learn all about the river and this small southern town. Visit the gift shop, bookstore and various exhibits, plus view a 90-minute video.</p>"+
+      '</div>'+
+      '</div>';
+
+  	  var infowindow2 = new google.maps.InfoWindow({
+      content: contentString2,
+	  maxWidth: 250,
+  	  });
+
+	 google.maps.event.addListener(marker2, 'click', function() {
+     infowindow2.open(map,marker2);
+  	 });
+	 
 	var flightPlanCoordinates = [
 new google.maps.LatLng(31.555371,-91.395226),
 new google.maps.LatLng(31.555631,-91.396303),
