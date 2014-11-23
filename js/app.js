@@ -30,7 +30,8 @@ function initialise() {
       '</div>';
 
   	  var infowindow = new google.maps.InfoWindow({
-      content: contentString
+      content: contentString,
+	  maxWidth: 320,
   	  });
 
 	 google.maps.event.addListener(marker, 'click', function() {
